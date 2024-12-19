@@ -451,19 +451,14 @@
                     </li>
                 </ul>
             </div>
-
-
-
             <div class="div-subscribe">
                 <p class="subscribe-p">Subscribe</p>
-                <form class="footer-form">
-                    <label class="label-footer">
-                        <input class="footer-input"
-                        name="footer-form" 
-                        type="email"  
-                        placeholder="E-mail" 
-                        >
+                        <form class="subscribe-footer" name="subscribe-form">
+                    <label for="subscribe-email">
+                        <input name="subscribe-email" id="subscribe-email" type="email" class="footer-input-email"
+                            placeholder="E-mail">
                     </label>
+                    
                     <button type="submit" class="button-subscribe">Subscribe
                         <svg width="24" height="24" class="svg-subscribe">
                             <use href="./images/icons.svg#icon-send"></use>
@@ -474,7 +469,8 @@
         </div>
     </footer>
 
- 
+    /*----------------- window --------------------*\
+
     <div class="backdrop is-open">
         <div class="modal-overlay">
             <button class="modal-btn" type="button">
@@ -483,8 +479,6 @@
                     </use>
                 </svg>
             </button>
-
-
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="modal-form" name="callback-form">
                 <div class="div-form">
@@ -547,9 +541,7 @@
                 <button class="checkbox-btn" type="submit">Send</button>
             </form>
         </div>
-
     </div>
-    <!--Modal window-->
 </body>
 
 </html>

@@ -634,6 +634,7 @@ color: rgba(46, 47, 66, 1)
 
 /*------------- SUSCRIBE ------------------*/
 
+
 .div-subscribe {
   display: flex;
   flex-direction: column;
@@ -652,7 +653,7 @@ color: rgba(46, 47, 66, 1)
   gap: 24px;
 }
 
-.input-email {
+.subscribe-email-label {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -668,7 +669,7 @@ color: rgba(46, 47, 66, 1)
   outline: none;
 }
 
-.input-email::placeholder {
+.subscribe-email-label::placeholder {
   color: #ffffff;
 }
 
@@ -744,7 +745,7 @@ color: rgba(46, 47, 66, 1)
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button {
+.modal-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -762,22 +763,22 @@ color: rgba(46, 47, 66, 1)
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button .modal-svg {
+.modal-btn .modal-svg {
   fill: #2e2f42;
   transition-property: fill;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #404bbf;
-   border: none;
+  border: none;
 
 }
 
-.modal-button:hover .modal-svg,
-.modal-button:focus .modal-svg {
+.modal-btn:hover .modal-svg,
+.modal-btn:focus .modal-svg {
   fill: #fff;
 }
 

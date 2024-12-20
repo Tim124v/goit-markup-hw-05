@@ -637,6 +637,10 @@ color: rgba(46, 47, 66, 1)
 
 .div-subscribe {
   display: flex;
+}
+
+.div-subscribe {
+  display: flex;
   flex-direction: column;
 }
 
@@ -959,5 +963,6 @@ color: rgba(46, 47, 66, 1)
 .checkbox-btn:hover,
 .checkbox-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
